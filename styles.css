@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #9c9f7b; /* Sage Green */
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 10%;
+}
+
+.welcome {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+/* Button Styling */
+button {
+    background-color: #9c9f7b; /* Sage Green */
+    color: black; /* Ensure button text is black */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #7a7d5e; /* Slightly darker sage green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Styling for Delete button */
+button.delete-comment {
+    background-color: #e74c3c; /* Red for Delete */
+    color: white; /* Keep delete button text white */
+}
+
+button.delete-comment:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Styling for Submit Comment button */
+button.submit-comment {
+    background-color: #3498db; /* Blue for Submit */
+    color: white; /* Keep submit button text white */
+}
+
+button.submit-comment:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Save/Remove Button */
+button.save-remove {
+    background-color: #27ae60; /* Green for Save/Remove */
+    color: white; /* Keep save/remove button text white */
+}
+
+button.save-remove:hover {
+    background-color: #2ecc71; /* Lighter green on hover */
+}
+
+/* "Back to Recipes" button */
+.btn {
+    background-color: #5cb85c; /* Green for Back to Recipes */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Comment Section Styling */
+h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    color: #333;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="hidden"] {
+    display: none;
+}
+
+/* Styling for the recipe details */
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
